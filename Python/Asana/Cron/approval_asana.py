@@ -52,7 +52,7 @@ def main():
 				smtp_object.login(email,gmcreds)
 
 				from_email_address = 'Alex Galvan'
-				to_email_address = 'agalvan@southlandchristian.org',emails
+				to_email_address = 'CCED_EMAIL',emails
 				subject = 'Your Project "'+prject_name+'" has been approved!'
 				messege = 'Your Creative request "'+prject_name+'" has been approved!'+\
 				'\n'+'\n'+'If you have any questions, want to learn more about updates, or follow up in '+\

@@ -5,11 +5,11 @@ Program will add approved request into respected projects and sections.
 """
 import asana
 #Authentication 
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'ASANA_CREDS'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 
-approved_sec_gid = '1198513601388630'
+approved_sec_gid = 'ASANA_SECTION_GID'
 approved_sec_tsks = list(client.tasks.get_tasks_for_section(approved_sec_gid))
 
 def add_sec (sec_gid,task_gid):
@@ -38,6 +38,6 @@ def main (project_id):
             else:
                 pass
                 
-main('1199378946093870')#Communications
-main('1199378946093873')#Design
-main('1199378946093867')#Video
+main('COM_PROJECT_GID')#Communications
+main('DES_PORJECT_GID')#Design
+main('VID_PROJECT_GID')#Video

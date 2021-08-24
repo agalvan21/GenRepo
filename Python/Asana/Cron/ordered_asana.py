@@ -49,7 +49,7 @@ def main():
                 smtp_object.login(email,gmcreds)
 
                 from_email_address = 'Alex Galvan'
-                to_email_address = 'agalvan@southlandchristian.org',emails
+                to_email_address = 'CCED_EMAIL',emails
                 subject = 'Your Project "'+prject_name+'" has been ordered!'
                 messege = 'Hello!'+'\n'+'Just wanted to let you know that your '+prject_name+\
                 ' has been ordered!'+'\n'+'\n'+'The ETA for your request is: '+etas+'\n'+\

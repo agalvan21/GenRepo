@@ -1,0 +1,192 @@
+{'assignee': {'gid': '1120765508086777',
+              'name': 'Neil Gregory',
+              'resource_type': 'user'},
+ 'assignee_status': 'inbox',
+ 'completed': False,
+ 'completed_at': None,
+ 'created_at': '2021-06-21T13:22:02.685Z',
+ 'custom_fields': [{'created_by': {'gid': '1111064222358483',
+                                   'name': 'Alex Galvan',
+                                   'resource_type': 'user'},
+                    'display_value': 'jkoerner@southland.church',
+                    'enabled': True,
+                    'gid': '1198946033379080',
+                    'name': 'Client Email',
+                    'resource_subtype': 'text',
+                    'resource_type': 'custom_field',
+                    'text_value': 'jkoerner@southland.church',
+                    'type': 'text'},
+                   {'created_by': {'gid': '1111064222358483',
+                                   'name': 'Alex Galvan',
+                                   'resource_type': 'user'},
+                    'display_value': 'Video',
+                    'enabled': True,
+                    'gid': '1199637069842789',
+                    'name': 'Type of Request',
+                    'resource_subtype': 'text',
+                    'resource_type': 'custom_field',
+                    'text_value': 'Video',
+                    'type': 'text'},
+                   {'created_by': {'gid': '1111064222358483',
+                                   'name': 'Alex Galvan',
+                                   'resource_type': 'user'},
+                    'display_value': None,
+                    'enabled': True,
+                    'gid': '1199637069842793',
+                    'name': 'Notes',
+                    'resource_subtype': 'text',
+                    'resource_type': 'custom_field',
+                    'text_value': None,
+                    'type': 'text'},
+                   {'created_by': {'gid': '1120765508086777',
+                                   'name': 'Neil Gregory',
+                                   'resource_type': 'user'},
+                    'display_value': 'Approved',
+                    'enabled': True,
+                    'enum_options': [{'color': 'green',
+                                      'enabled': True,
+                                      'gid': '1199652998041373',
+                                      'name': 'Approved',
+                                      'resource_type': 'enum_option'},
+                                     {'color': 'yellow',
+                                      'enabled': True,
+                                      'gid': '1199652998042404',
+                                      'name': 'Needs More Info',
+                                      'resource_type': 'enum_option'},
+                                     {'color': 'red',
+                                      'enabled': True,
+                                      'gid': '1199652998042411',
+                                      'name': 'Denied',
+                                      'resource_type': 'enum_option'}],
+                    'enum_value': {'color': 'green',
+                                   'enabled': True,
+                                   'gid': '1199652998041373',
+                                   'name': 'Approved',
+                                   'resource_type': 'enum_option'},
+                    'gid': '1199652998041364',
+                    'name': 'Approval',
+                    'resource_subtype': 'enum',
+                    'resource_type': 'custom_field',
+                    'type': 'enum'},
+                   {'created_by': {'gid': '1111064222358483',
+                                   'name': 'Alex Galvan',
+                                   'resource_type': 'user'},
+                    'display_value': None,
+                    'enabled': True,
+                    'gid': '1199897166449733',
+                    'name': 'ETA!',
+                    'resource_subtype': 'text',
+                    'resource_type': 'custom_field',
+                    'text_value': None,
+                    'type': 'text'},
+                   {'created_by': None,
+                    'display_value': None,
+                    'enabled': True,
+                    'gid': '1196690776642931',
+                    'name': 'Cost',
+                    'number_value': None,
+                    'precision': 0,
+                    'resource_subtype': 'number',
+                    'resource_type': 'custom_field',
+                    'type': 'number'},
+                   {'created_by': {'gid': '1111064222358483',
+                                   'name': 'Alex Galvan',
+                                   'resource_type': 'user'},
+                    'display_value': None,
+                    'enabled': True,
+                    'gid': '1199890672450744',
+                    'name': 'Client Email',
+                    'resource_subtype': 'text',
+                    'resource_type': 'custom_field',
+                    'text_value': None,
+                    'type': 'text'}],
+ 'due_at': None,
+ 'due_on': '2021-09-02',
+ 'followers': [{'gid': '1120765508086777',
+                'name': 'Neil Gregory',
+                'resource_type': 'user'},
+               {'gid': '1111064222358483',
+                'name': 'Alex Galvan',
+                'resource_type': 'user'}],
+ 'gid': '1200498877405500',
+ 'hearted': False,
+ 'hearts': [],
+ 'liked': False,
+ 'likes': [],
+ 'memberships': [{'project': {'gid': '1198513601388629',
+                              'name': 'New Requests',
+                              'resource_type': 'project'},
+                  'section': {'gid': '1199890672450696',
+                              'name': 'Assigned',
+                              'resource_type': 'section'}},
+                 {'project': {'gid': '1199378946093867',
+                              'name': 'Video ',
+                              'resource_type': 'project'},
+                  'section': {'gid': '1199643626417665',
+                              'name': 'Weekend',
+                              'resource_type': 'section'}}],
+ 'modified_at': '2021-07-01T15:17:06.246Z',
+ 'name': '1 Yr Anniversary Video ',
+ 'notes': 'Name:\n'
+          'Jason Koerner\n'
+          '\n'
+          'Email:\n'
+          'jkoerner@southland.church\n'
+          '\n'
+          'Project Name:\n'
+          '1 Yr Anniversary Video \n'
+          '\n'
+          'Who should be included in reviewing the drafts for this project? '
+          '(Limit to one):\n'
+          'Jason K\n'
+          '\n'
+          'Type of Request:\n'
+          'Video\n'
+          '\n'
+          'By when do you need this video?:\n'
+          'Sep 2, 2021\n'
+          '\n'
+          'Is this due date flexible?:\n'
+          'Yes\n'
+          '\n'
+          'Tell us about your Project::\n'
+          'We would love one or both of the following - 1.)  A short video '
+          'from Jon or maybe even a mention in the sermon just highlighting '
+          "Richmond's 1 yr anniversary to use on Sunday, Sept 12 and then 2.) "
+          'A highlight reel to play under a worship song during Worship Night '
+          'on Sept 13.  \n'
+          '\n'
+          '\n'
+          'Target Audience:\n'
+          'The Richmond Campus attenders and visitors\n'
+          '\n'
+          'Who all needs to be in this video?:\n'
+          'Jon if at all possible?!\n'
+          '\n'
+          'Project Use:\n'
+          'MCHS Auditorium on Sunday morning and Monday night (Sept 12 and '
+          '13)\n'
+          '\n'
+          '———————————————\n'
+          'This task was submitted through Creative Request\n'
+          'https://form.asana.com/?k=4MPrsjHtaQlPrZ8Ez9me6w&d=7986005952209',
+ 'num_hearts': 0,
+ 'num_likes': 0,
+ 'parent': None,
+ 'permalink_url': 'https://app.asana.com/0/1198513601388629/1200498877405500',
+ 'projects': [{'gid': '1198513601388629',
+               'name': 'New Requests',
+               'resource_type': 'project'},
+              {'gid': '1199378946093867',
+               'name': 'Video ',
+               'resource_type': 'project'}],
+ 'resource_subtype': 'default_task',
+ 'resource_type': 'task',
+ 'start_at': None,
+ 'start_on': None,
+ 'tags': [{'gid': '1198946033379088',
+           'name': 'Assigned',
+           'resource_type': 'tag'}],
+ 'workspace': {'gid': '7986005952209',
+               'name': 'southlandchristian.org',
+               'resource_type': 'workspace'}}

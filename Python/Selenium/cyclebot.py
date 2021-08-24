@@ -4,7 +4,7 @@ from time import sleep
 import time
 import schedule
 
-path1 = '/Users/alexgalvan/Desktop/LearningPY/LearningPY/chromedriver'
+path1 = 'LOCAL_PATH_TO_CHROME_DRIVER'
 class CycleBot:
 	def __init__(self, username, pw):
 		self.driver = webdriver.Chrome(path1)
@@ -68,7 +68,7 @@ class CycleBot:
 		.click() 
 		sleep(2)
 		self.driver.quit()
-schedule.every().tuesday.at('22:05').do(CycleBot,'alejandropsn@live.com','$Mile103020')
+schedule.every().tuesday.at('22:05').do(CycleBot,'LOGIN_EMAIL','LOGIN_PW')
 while True:
 	schedule.run_pending()
 	time.sleep(1)
@@ -77,10 +77,3 @@ while True:
 
 
 
-"""							for rows in range(11,0):
-			a = '/html/body/div[2]/div[2]/div/div/div/div[2]/table/tbody/tr[%s]'%rows
-			for seat in range(1,20,2):
-				b = (a + '/td[%s]'%seat)
-				self.driver.find_element_by_xpath(b).click()
-				#select this bike button at the bottom of page
-				sleep(3)"""

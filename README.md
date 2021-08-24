@@ -1,2 +1,3 @@
-# learnPy
-Small automations learning Py
+# learning 
+- Python
+- Google App Script

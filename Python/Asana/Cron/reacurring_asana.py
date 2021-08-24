@@ -6,12 +6,12 @@ Program will delete attachetments evrey week on the announcement_gfx task in asa
 import asana
 
 #Authentication 
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'ASANA_CREDS'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 
 def main (name_of_task):
-    design_weekly_tsks = '1199405096459889'
+    design_weekly_tsks = 'SECTION_GID'
     tsks_weekly_dsg = list(client.tasks.get_tasks_for_section(design_weekly_tsks,{'opt_fields':'name'}))
     #Get all task gids off announcement gfx into a python list
     tsk_gids = []

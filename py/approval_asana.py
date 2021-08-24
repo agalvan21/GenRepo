@@ -12,13 +12,13 @@ logging.basicConfig(filename = 'asana_log.log',level = logging.INFO, format ='%(
 # Construct an Asana Client
 def main():
 	#cred = open('creds.txt','r').read()
-	cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+	cred = 'ASANA_CREDS_HERE'
 	client = asana.Client.access_token(cred)
 	me = client.users.me()
 	# Asana GIDs
-	assigned_tag = '1198946033379088'
-	ordered_tag = '1198923347472692' 
-	new_requests_project = '1198513601388629'
+	assigned_tag = 'ASANA_TAG_HERE'
+	ordered_tag = 'ASANA_TAG_HERE' 
+	new_requests_project = 'ASANA_TAG_HERE'
 
 	#get Gdids from New Requests Project
 	tasks_in_proj = client.tasks.get_tasks_for_project(new_requests_project, {'opt_fields': 'completed'})
@@ -46,9 +46,9 @@ def main():
 				smtp_object = smtplib.SMTP('smtp.gmail.com',587)
 				smtp_object.ehlo()
 				smtp_object.starttls()
-				email = 'agalvan@southlandchristian.org'
+				email = 'FROM_EMAIL_ADDRESS_HERE'
 				#gmcreds = open('gcred.txt','r').read()
-				gmcreds = 'kzqjxrznnzlsfnnr'
+				gmcreds = 'GMAIL_CREDS_HERE'
 				smtp_object.login(email,gmcreds)
 
 				from_email_address = 'Alex Galvan'

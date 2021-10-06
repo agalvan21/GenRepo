@@ -7,7 +7,7 @@ import asana
 import logging
 from pprint import pprint as pp
 logging.basicConfig(filename = 'asana_log.log',level = logging.INFO, format ='%(asctime)s:%(levelname)s:%(message)s')
-cred = '1/1111064222358483:98aad7b6d15fb22fb8283e174991fa14'
+cred = 'ASANA_CREDS'
 client = asana.Client.access_token(cred)
 me = client.users.me()
 def get_tsk_stories(task_gid):
@@ -23,7 +23,7 @@ def get_tsk_stories(task_gid):
     return(all_comments[-1]['text'])
 def get_inc_tsks():
 #Returns a list of all incompleted task gids called incompleted_tasks
-    project_gid = '1198513601388629'  
+    project_gid = 'PROJECT_GID'  
     tasks_in_proj = list(client.tasks.get_tasks_for_project(project_gid, {'opt_fields': 'completed'}))
     task_gid = []
     for task in tasks_in_proj:
@@ -36,5 +36,6 @@ def main():
             client.tasks.update_task(tsk_gid,{'custom_fields':{'1201021503995606':get_tsk_stories(tsk_gid)}})
         except:
             pass
-main()
+if __name__ =="__main__":
+	main()
 

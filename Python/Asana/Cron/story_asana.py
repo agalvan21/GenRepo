@@ -1,7 +1,7 @@
 """
-approval_asana.py 
+story_asana.py 
 Created By: Alex Galvan
-Program will get last note and place it in a custom flield
+Program will get last story in a task and place it in the respecting custom flield
 """
 import asana
 import logging
